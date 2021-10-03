@@ -106,20 +106,10 @@ function fn_3() {
     function getUniqueColors(dogs) {
         return [...dogs.reduce((colors, {color}) => colors.add(color), new Set())];
     }
-    
+
     console.log(getUniqueColors(dogs));
-}
-
-function fn_4() {
-
-}
-
-function fn_5() {
-
 }
 
 // fn_1();
 // fn_2();
 fn_3();
-// fn_4();
-// fn_5();

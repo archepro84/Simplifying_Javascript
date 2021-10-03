@@ -23,7 +23,7 @@ function fn_1() {
             return 0;
         }
         return a.years - b.years;
-    }
+    };
 
     console.log(staff);
     // console.log(staff.sort(sortByYears));
@@ -57,7 +57,7 @@ function fn_2() {
             return 0;
         }
         return a.years - b.years;
-    }
+    };
 
     console.log([...staff].sort(sortByYears));
     // console.log([...staff].sort(sortByName));

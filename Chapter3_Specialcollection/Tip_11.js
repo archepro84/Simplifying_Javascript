@@ -78,7 +78,7 @@ function fn_4() {
     console.log(employee);
     console.log(defaultEmployee);
 
-    defaultEmployee.name.first = 'Update name first'
+    defaultEmployee.name.first = 'Update name first';
     console.log(employee);
     console.log(defaultEmployee);
 }
@@ -98,7 +98,7 @@ function fn_5() {
         {
             name: Object.assign({}, defaultEmployee.name)
         },
-    )
+    );
 
     // 원본 객체를 수정하더라도 모두 변경되지 않는다.
     console.log(employee2);

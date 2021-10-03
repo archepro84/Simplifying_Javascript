@@ -6,7 +6,7 @@ function fn_1() {
         red: '#d10202',
         green: '#19d836',
         blue: '#0e33d8',
-    }
+    };
     // export const config = {
     //     endpoint: 'http://pragprog.com',
     //     key: 'secretkey',

@@ -17,7 +17,7 @@ function fn_1() {
         name: 'Guide to Science Fiction',
         price: 0,
         discount: true,
-    }
+    };
 
     function addFreeGift(cart) {
         if (cart.length > 2) {
@@ -32,14 +32,14 @@ function fn_1() {
         if (discountable.length > 1) {
             return {
                 return: '할인 상품은 하나만 주문할 수 있습니다.'
-            }
+            };
         }
         const cartWithReward = addFreeGift(cart);
         return {
             discounts: discountable.length,
             items: cartWithReward.length,
             cart: cartWithReward,
-        }
+        };
     }
 
     console.log(summarizeCart(cart));
@@ -66,7 +66,7 @@ function fn_2() {
         name: 'Guide to Science Fiction',
         price: 0,
         discount: true,
-    }
+    };
 
     function addFreeGift(cart) {
         if (cart.length > 2) {
@@ -80,14 +80,14 @@ function fn_2() {
         if (discountable.length > 1) {
             return {
                 return: '할인 상품은 하나만 주문할 수 있습니다.'
-            }
+            };
         }
         const cartWithReward = addFreeGift(cart);
         return {
             discounts: discountable.length,
             items: cartWithReward.length,
             cart: cartWithReward,
-        }
+        };
     }
 
     console.log(summarizeCart(cart));
